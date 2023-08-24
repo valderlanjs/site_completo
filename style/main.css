@@ -69,9 +69,18 @@ img {
 .header__nav a:hover {
   color: #63c6ae;
 }
-/*
+
 .header__btnMenu {
-}*/
+  float: right;
+  margin: 1.5em;
+  background: transparent;
+  border: none;
+  font-size: 17px;
+}
+
+.js .header__nav {
+  transition: max-height 1s;
+}
 
 .hero {
   height: 80vh;
